@@ -12,11 +12,11 @@
 tablA1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/X_train.txt", header = FALSE, fill = TRUE)
 tablA2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/X_test.txt" )
 
-tablB1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/subject_train.txt", header = FALSE, fill = TRUE)
-tablB2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/subject_train.txt", header = FALSE, fill = TRUE)
+tablB1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/subject_train.txt")
+tablB2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/subject_train.txt")
 
-tablC1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/Y_train.txt", header = FALSE, fill = TRUE)
-tablC2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/Y_test.txt", header = FALSE, fill = TRUE)
+tablC1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/Y_train.txt")
+tablC2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/Y_test.txt")
 
 #Step2: Merge training and test sets into one data set
 A <- rbind(tablA1, tablA2)
