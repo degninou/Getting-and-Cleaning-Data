@@ -9,14 +9,14 @@
 ###################################################################################
 # The R script runs as follow:
 #Step1: Read training and test sets
-tablA1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/X_train.txt", header = FALSE, sep=" ")
-tablA2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/X_test.txt", header = FALSE, sep=" " )
+tablA1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/X_train.txt", fill = TRUE, sep=" ")
+tablA2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/X_test.txt", fill = TRUE, sep=" " )
 
-tablB1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/subject_train.txt", header = FALSE, sep=" ")
-tablB2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/subject_train.txt", header = FALSE, sep=" ")
+tablB1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/subject_train.txt", fill = TRUE, sep=" ")
+tablB2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/subject_train.txt", fill = TRUE, sep=" ")
 
-tablC1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/Y_train.txt", header = FALSE, sep=" ")
-tablC2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/Y_test.txt", header = FALSE, sep=" ")
+tablC1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/Y_train.txt", hfill = TRUE, sep=" ")
+tablC2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/Y_test.txt", fill = TRUE, sep=" ")
 
 #Step2: Merge training and test sets into one data set
 A <- rbind(tablA1, tablA2)
