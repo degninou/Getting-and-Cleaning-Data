@@ -9,14 +9,14 @@
 ###################################################################################
 # The R script runs as follow:
 #Step1: Read training and test sets
-tablA1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/train/X_train.txt")
-tablA2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/test/X_test.txt")
+tablA1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/X_train.txt")
+tablA2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/X_test.txt")
 
-tablB1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/train/subject_train.txt")
-tablB2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/test/subject_train.txt")
+tablB1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/subject_train.txt")
+tablB2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/subject_train.txt")
 
-tablC1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/train/Y_train.txt")
-tablC2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/test/Y_test.txt")
+tablC1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/Y_train.txt")
+tablC2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/Y_test.txt")
 
 #Step2: Merge training and test sets into one data set
 A <- rbind(tablA1, tablA2)
