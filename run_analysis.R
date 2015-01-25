@@ -15,7 +15,7 @@ tablA2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/X_t
 tablB1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/subject_train.txt", fill = TRUE, sep=" ")
 tablB2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/subject_train.txt", fill = TRUE, sep=" ")
 
-tablC1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/Y_train.txt", hfill = TRUE, sep=" ")
+tablC1 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/Y_train.txt", fill = TRUE, sep=" ")
 tablC2 <- read.table("C:/Users/DEGNINOU/Desktop/Data Science/UCI HAR Dataset/Y_test.txt", fill = TRUE, sep=" ")
 
 #Step2: Merge training and test sets into one data set
